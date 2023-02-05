@@ -64,26 +64,26 @@
 .swiper-button-next,
 .swiper-button-prev {
   position: relative !important;
-  width: 100% !important;
   height: var(--swiper-navigation-size);
+  width: fit-content !important;
   cursor: pointer;
-  display: flex;
-  align-items: flex-end !important;
-  justify-content: flex-end !important;
   color: #dc7000 !important;
-  padding-right: 5rem !important;
+  padding-right: 0rem !important;
 }
 
 .swiper-button-next {
   right: 0 !important;
   left: 0 !important;
   left: 0 !important;
+  width: fit-content !important;
+  float: right;
 }
 
 .swiper-button-prev {
   left: auto !important;
-  right: 50px !important;
-  top: 22px !important;
+  right: 80px !important;
+  top: 0px !important;
+  float: right;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
@@ -204,6 +204,14 @@
   }
   .trading-games__container .see-all {
     font-size: 12px;
+  }
+}
+@media screen and(max-width: 1100px) {
+}
+
+@media screen and (max-width: 900px) {
+  .games {
+    flex-direction: column;
   }
 }
 

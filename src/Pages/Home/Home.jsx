@@ -77,7 +77,7 @@ const Home = () => {
         </div>
         <div className="costumer-review-cards">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={1}
             spaceBetween={45}
             slidesPerGroup={1}
             loop={true}
@@ -89,6 +89,14 @@ const Home = () => {
               clickable: true,
               el: ".swiper-pagination",
               dynamicBullets: true,
+            }}
+            breakpoints={{
+              781: {
+                slidesPerView: 2,
+              },
+              1100: {
+                slidesPerView: 3,
+              },
             }}
             navigation={true}
             modules={[Pagination, Navigation]}
