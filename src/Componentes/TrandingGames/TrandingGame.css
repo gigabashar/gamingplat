@@ -1,0 +1,33 @@
+.game-card {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.game-card img {
+  width: 100%;
+  border-radius: 20px;
+  max-width: 251px;
+  height: 100%;
+}
+.responsive {
+  font-size: 27px;
+  color: white;
+}
+.followers {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .followers h2 {
+    font-size: 12px;
+  }
+  .responsive {
+    font-size: 14px;
+  }
+  .game-card img {
+    height: 277px;
+  }
+}

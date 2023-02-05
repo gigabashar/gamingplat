@@ -1,0 +1,46 @@
+.costumer-review-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+}
+.costumer-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.costumer-who {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.costumer-who p {
+  font-size: 18px;
+  line-height: 15px;
+}
+
+.costumer-who span {
+  color: #4f5665;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+.stars span {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text p {
+  font-size: 14px;
+  line-height: 187.5%;
+}
